@@ -1,0 +1,187 @@
+/* Текст */
+/* General navigation elements */
+.gnav {font: bold 70% Arial, Helvetica, sans-serif; background: #E5E5E5}
+.gnav, .gnav a:link, .gnav a:visited, .gnav a:hover, .gnav span {color: #069; text-decoration: none}
+.gnav a:hover, .gnav span {color: #c30}
+
+p, .p, .pi, .pj {
+  margin : 7pt 0pt 7pt 0pt;
+  text-indent : 0;
+  font : normal 100% Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.pj, .pji {text-align : justify}
+p, .pi, .pji, .nws {text-indent : 2em}
+strong  { color: #600}
+code  {color: #600;  font : bold 100% "Courier New", Courier, monospace;
+	border-bottom : 1px dotted #960}
+em {
+	color : #666;
+	font : normal 100% Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+address {
+	border-right: #336699 2px solid;
+	padding : 5px 5px 5px 10px;
+	color : #036;
+	margin : 7pt 0 7pt 0;
+	text-align : right;
+	font : normal 100% Verdana, Geneva, Arial, Helvetica, sans-serif;  
+}
+ul, .ul {
+  margin-top : 7pt;
+  margin-bottom : 7pt;
+}
+li, .li {
+	margin-top : 2pt;
+	margin-bottom : 2pt;
+	font : normal 100% Verdana, Geneva, Arial, Helvetica, sans-serif;  	
+}
+.mini {font-size : 80%}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #336699; margin: 9px 0 15px 0;
+}
+h6 {font-size: 90%}
+/* Маркеры, разделители и др. элементы оформления */
+.dt {color : #336699}
+div.left {
+	margin : 7pt 0 7pt 5pt;
+	font : 65% Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+div.left p {text-indent : 1em}
+div.main {
+	margin : 7pt 0 7pt 5pt;
+	font : 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.vis {
+	font : 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding : 5px 5px 5px 10px;
+	border : 1px dotted #960;
+	margin : 0 15px 15px 0;
+}
+
+/* Таблицы */
+table.price {font: 90% Verdana, Geneva, Arial, Helvetica, sans-serif}
+table.price caption {
+	font: 100% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #660000;
+	padding : 5px 5px 5px 5px;
+	font-weight : bold;
+}
+table.price {
+	background: #f0f0f0;
+	border-color: #AAA;
+	border-style: solid;
+	border-width: 0 1px 1px 0
+}
+table.price td {
+	background: #f0f0f0;
+	border-color: #AAA;
+	border-style: solid;
+	border-width: 1px 0 0 1px
+}
+table.price th {
+	font-size: 90%;
+	color: #E7E7E7;
+	background: #336699;
+	border-color: #AAA;
+	border-style: solid;
+	border-width: 1px 0 0 1px;
+}
+table.price h4 {color: #960; text-align : center; margin : 0 0 0 0}
+table.price h5 {color: #369; text-align : center; margin : 0 0 0 0}
+table.price h6 {color: #600; margin : 0 0 0 0}
+/* Ссылки */
+a:link, a:visited, a:active {text-decoration: underline}
+a:hover {color : #CC0000; text-decoration: underline}
+.dmenu {
+  font : normal 70%/130% "MS Sans Serif", Geneva, sans-serif;
+  margin : 5pt 0 7pt 0;
+  color : #5C5C5C;  
+}
+.dnav, a.dnav:link, a.dnav:visited{
+  text-decoration: none;
+  color : #5C5C5C;  
+}
+.dnava, a.dnava:link, a.dnava:visited {
+  color : #995824;
+}
+a.dnav:hover {
+  color : #995824;
+  text-decoration: underline;
+}
+.nav, a.nav:link, a.nav:visited,
+.nav1, a.nav1:link, a.nav2:visited,
+.nav2, a.nav2:link, a.nav2:visited,
+.nava, a.nava:link, a.nava:visited,
+.nav1a, a.nav1a:link, a.nav1a:visited,
+.nav2a, a.nav2a:link, a.nav2a:visited{
+  font : normal x-small Arial, Helvetica, sans-serif;
+  margin : 0 0 0 0;
+}
+
+.nav, a.nav:link, a.nav:visited {
+  color : #C4C4C4;
+  text-decoration: none;
+  display : block;
+  margin : 0 3px 0 3px;
+}
+.nav1, a.nav1:link, a.nav1:visited,
+.nav2, a.nav2:link, a.nav2:visited{
+  color : #C4C4C4;
+  text-decoration: none;
+}
+.nava, a.nava:link, a.nava:visited {
+  color : #FFB556;
+  display : block;  
+  margin : 0 3px 0 3px;
+}
+.nav1a, a.nav1a:link, a.nav1a:visited {
+  color : #FFB556;
+}
+.nav2a, a.nav2a:link, a.nav2a:visited {
+  color : #FFB556;
+  margin : 5px 0 5px 0;
+}
+
+a.nav:hover, a.nav1:hover, a.nav2:hover {
+  color : #FFB556;
+  text-decoration: underline;
+}
+
+.kb,  a.kb:link, a.kb:visited {
+	color: #CCC; font: 70% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0 0 0 0; text-align: center; text-decoration: none;
+}
+.copyright, a.copyright:link, a.copyright:visited {
+	color: #333; font: 70% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 5px 0 15px 0; text-decoration: none;	
+}
+a.copyright,  a.copyright:link, a.copyright:visited {font-size: 100%}
+a.copyright:hover {text-decoration: underline;	color: #333}
+a.kb,  a.kb:link, a.kb:visited {font-size: 100%}
+a.kb:hover {text-decoration: underline;	color: #CCC}
+
+/* основные фоны */
+body, .bgmain {color: #000; background: #AAADB2}
+.bgcnt {background: #F7F7F7}
+
+.ftxt {
+	background : #eee;
+	border: 1px solid #369;
+	width : 100%;
+}
+.fcap{
+	font : bold 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #369;
+}
+.fcom{
+	font : normal 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #666;
+}
+.err {
+	color : #A10B0B;
+	text-indent : 0px;
+}
+.line {background: #ccc; margin: 0.7em 0 0.7em 0}
